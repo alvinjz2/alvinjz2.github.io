@@ -6,6 +6,7 @@ import PortraitPhoto from "../components/portraitphoto";
 import GitHubIcon from "../components/githublink";
 import LinkedInIcon from "../components/linkedinlink";
 import TwitterIcon from "../components/twitterlink";
+import GmailIcon from "../components/gmaillink";
 
 export default function About() {
   return (
@@ -26,6 +27,7 @@ export default function About() {
             <GitHubIcon />
             <LinkedInIcon />
             <TwitterIcon />
+            <GmailIcon />
           </div>
         </div>
         <div class="translate-y-[13%]">
