@@ -2,7 +2,7 @@ import React from "react";
 import DocViewer, { DocViewerRenderers } from "@cyntler/react-doc-viewer";
 
 export default function DView() {
-  const docs = [{ uri: require("./Resume.pdf") }];
+  const docs = [{ uri: require("./media/Resume.pdf") }];
   return (
     <div class="w-5/6">
       <DocViewer pluginRenderers={DocViewerRenderers} documents={docs} />
