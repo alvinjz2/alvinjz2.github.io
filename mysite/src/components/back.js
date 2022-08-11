@@ -7,10 +7,10 @@ export default function Back() {
     navigate("/");
   };
   return (
-    <div class="p-6">
+    <div class="pb-10 pt-8 place-items-center">
       <button
         onClick={routeChange}
-        class="text-xl bg-zinc-300 py-3 px-6 drop-shadow-lg rounded-full hover:bg-sky-200 ease-in-out transition duration-500"
+        class="text-xl w-30 h-[52px] bg-zinc-200 py-3 px-6 drop-shadow-lg rounded-full hover:bg-indigo-100 ease-in-out transition duration-500"
       >
         Back
       </button>
