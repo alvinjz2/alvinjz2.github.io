@@ -8,7 +8,7 @@ function Card(props) {
   };
   return (
     <button
-      class="bg-slate-100 drop-shadow-lg rounded-xl min-w-fit max-w-lg p-6 transition ease-in-out duration-300 hover:scale-105"
+      class="bg-white drop-shadow-lg rounded-xl min-w-xl max-w-lg p-10 transition ease-in-out duration-300 hover:scale-105"
       onClick={routeChange}
     >
       <div class="">
