@@ -1,19 +1,19 @@
 import React from "react";
-const image_path = require("./media/GmailIcon.png");
+import JavaScriptImage from "../media/JavaScriptIcon.png";
 
-export default function GmailIcon(props) {
+export default function JavaScriptIcon() {
   return (
-    <div class="pb-10 pt-8 translate-y-[2px]">
+    <div class="pt-8 translate-y-[5px]">
       <a
         rel="noopener noreferrer"
         target="_blank"
-        href={`mailto: ${props.email}`}
+        href="https://www.javascript.com/"
       >
         <button class="flex overflow-visible bg-white shadow-md rounded-md hover:scale-110 ease-in-out transition duration-300">
           <img
-            class=" w-[60px] h-[51px] px-2 pt-[2px]"
-            src={image_path}
-            alt="Email"
+            class=" w-[48px] h-[48px]"
+            src={JavaScriptImage}
+            alt="Javascript"
           ></img>
         </button>
       </a>

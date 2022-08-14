@@ -1,5 +1,5 @@
 import React from "react";
-const image_path = require("./media/TailwindCSSIcon.png");
+import TailwindImage from "../media/TailwindCSSIcon.png";
 
 export default function TailwindCSSIcon() {
   return (
@@ -12,7 +12,7 @@ export default function TailwindCSSIcon() {
         <button class="flex overflow-visible w-[51px] h-[51px] bg-white shadow-md rounded-full hover:scale-110 ease-in-out transition duration-300">
           <img
             class="  p-[6px]  translate-y-[7px]"
-            src={image_path}
+            src={TailwindImage}
             alt="Twitter Profile"
           ></img>
         </button>

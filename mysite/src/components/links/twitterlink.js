@@ -1,5 +1,5 @@
 import React from "react";
-const image_path = require("./media/TwitterIcon.png");
+import TwitterImage from "../media/TwitterIcon.png";
 
 export default function TwitterIcon(props) {
   return (
@@ -8,7 +8,7 @@ export default function TwitterIcon(props) {
         <button class="flex overflow-visible w-[51px] h-[51px] bg-white shadow-md rounded-full hover:scale-110 ease-in-out transition duration-300">
           <img
             class=" h-[51px] p-[10px] translate-x-[1px] translate-y-[1px]"
-            src={image_path}
+            src={TwitterImage}
             alt="Twitter Profile"
           ></img>
         </button>
