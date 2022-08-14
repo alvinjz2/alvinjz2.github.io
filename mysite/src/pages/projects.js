@@ -1,9 +1,11 @@
 import React from "react";
 import Back from "../components/back";
-import GitHubIcon from "../components/githublink";
-import ReactIcon from "../components/reactlink";
-import JavascriptIcon from "../components/javascripticon";
-import TailwindCSSIcon from "../components/tailwindcssicon";
+import GitHubIcon from "../components/links/githublink";
+import ReactIcon from "../components/links/reactlink";
+import JavascriptIcon from "../components/links/javascriptlink";
+import TailwindCSSIcon from "../components/links/tailwindcsslink";
+import GitHubPagesIcon from "../components/links/githubpageslink";
+
 import PhotoCard from "../components/photocard";
 const personal_website = "https://github.com/alvinjz2/alvinjz2.github.io";
 const website_link = "https://alvinjz.me";
@@ -38,6 +40,7 @@ export default function Interests() {
                 <ReactIcon />
                 <JavascriptIcon />
                 <TailwindCSSIcon />
+                <GitHubPagesIcon />
               </div>
               <div class="flex flex-row justify-start">
                 <div class="">
