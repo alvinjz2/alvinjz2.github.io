@@ -1,23 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.197ddd59.css",
-    "main.js": "/static/js/main.72a430d7.js",
+    "main.css": "/static/css/main.bd60f26a.css",
+    "main.js": "/static/js/main.7d2af848.js",
     "static/js/787.7cb2e3e1.chunk.js": "/static/js/787.7cb2e3e1.chunk.js",
     "static/media/SelfPhoto.jpg": "/static/media/SelfPhoto.2739deaa406db0aef884.jpg",
     "static/media/ChromeMockup.png": "/static/media/ChromeMockup.788d5c49e1241634785d.png",
     "static/media/Resume.pdf": "/static/media/Resume.d56e1dc7a707aa0a4a88.pdf",
-    "static/media/ReactIcon.png": "/static/media/ReactIcon.20adfb35ae6a6e5817bf.png",
     "static/media/TwitterIcon.png": "/static/media/TwitterIcon.f963dcac51d5020e10f3.png",
     "static/media/SpotifyIcon.png": "/static/media/SpotifyIcon.cd66b8f63f6566194c7e.png",
     "static/media/ChessIcon.png": "/static/media/ChessIcon.ea9eaee1ca74c66fc4bc.png",
     "static/media/JavaScriptIcon.png": "/static/media/JavaScriptIcon.266bd9fb2663dcc057b4.png",
+    "static/media/GitHubPages.svg": "/static/media/GitHubPages.271d0b59ea16e5910694b583a80e2f85.svg",
+    "static/media/ReactIcon.svg": "/static/media/ReactIcon.ec5ac92922556b304a0d653015e612d4.svg",
     "index.html": "/index.html",
-    "main.197ddd59.css.map": "/static/css/main.197ddd59.css.map",
-    "main.72a430d7.js.map": "/static/js/main.72a430d7.js.map",
+    "main.bd60f26a.css.map": "/static/css/main.bd60f26a.css.map",
+    "main.7d2af848.js.map": "/static/js/main.7d2af848.js.map",
     "787.7cb2e3e1.chunk.js.map": "/static/js/787.7cb2e3e1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.197ddd59.css",
-    "static/js/main.72a430d7.js"
+    "static/css/main.bd60f26a.css",
+    "static/js/main.7d2af848.js"
   ]
 }
