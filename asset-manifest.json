@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.395d9885.css",
-    "main.js": "/static/js/main.d4f72b0f.js",
+    "main.css": "/static/css/main.63db01ec.css",
+    "main.js": "/static/js/main.89684827.js",
     "static/js/787.7cb2e3e1.chunk.js": "/static/js/787.7cb2e3e1.chunk.js",
     "static/media/SelfPhoto.jpg": "/static/media/SelfPhoto.2739deaa406db0aef884.jpg",
     "static/media/ChromeMockup.png": "/static/media/ChromeMockup.788d5c49e1241634785d.png",
@@ -13,12 +13,12 @@
     "static/media/GitHubPages.svg": "/static/media/GitHubPages.271d0b59ea16e5910694b583a80e2f85.svg",
     "static/media/ReactIcon.svg": "/static/media/ReactIcon.ec5ac92922556b304a0d653015e612d4.svg",
     "index.html": "/index.html",
-    "main.395d9885.css.map": "/static/css/main.395d9885.css.map",
-    "main.d4f72b0f.js.map": "/static/js/main.d4f72b0f.js.map",
+    "main.63db01ec.css.map": "/static/css/main.63db01ec.css.map",
+    "main.89684827.js.map": "/static/js/main.89684827.js.map",
     "787.7cb2e3e1.chunk.js.map": "/static/js/787.7cb2e3e1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.395d9885.css",
-    "static/js/main.d4f72b0f.js"
+    "static/css/main.63db01ec.css",
+    "static/js/main.89684827.js"
   ]
 }
