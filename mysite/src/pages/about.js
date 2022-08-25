@@ -7,9 +7,11 @@ import GitHubIcon from "../components/links/githublink";
 import LinkedInIcon from "../components/links/linkedinlink";
 import TwitterIcon from "../components/links/twitterlink";
 import GmailIcon from "../components/links/gmaillink";
+import GoodReadsIcon from "../components/links/goodreadslink";
 const github_link = "https://github.com/alvinjz2";
 const twitter_link = "https://twitter.com/alvinjz2 ";
 const linkedin_link = "https://www.linkedin.com/in/alvinjz2/";
+const goodreads_link = "https://www.goodreads.com/alvinjz2";
 
 export default function About() {
   return (
@@ -31,6 +33,7 @@ export default function About() {
             <LinkedInIcon link={linkedin_link} />
             <TwitterIcon link={twitter_link} />
             <GmailIcon email="alvinjz2@illinois.edu" />
+            <GoodReadsIcon link={goodreads_link} />
           </div>
         </div>
         <div class="translate-y-[10%]">
