@@ -63,14 +63,14 @@ export default function Interests() {
                   target="_blank"
                   href={spotify_profile}
                 >
-                  <div class="grid bg-white drop-shadow-lg rounded-xl max-w-lg place-items-center">
+                  <div class="grid bg-white drop-shadow-lg rounded-xl max-w-lg place-items-center p-7">
                     <div class="grid grid-cols-1 place-items-center w-[250px] pt-6 max-h-fit">
                       <img
-                        class="max-w-[200px]"
+                        class="max-w-[220px]"
                         src={spotify_photo}
                         alt="Spotify"
                       />
-                      <p class=" place-items-center pt-2 pb-3">
+                      <p class=" place-items-center pt-6 pb-1">
                         Spotify Profile
                       </p>
                     </div>
