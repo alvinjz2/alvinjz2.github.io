@@ -21,7 +21,7 @@ export default function About() {
           <Header title="Hello, I'm Alvin!" />
           <TextCard
             content="Currently, I'm a student at the University of Illinois Urbana Champaign.
-                             I study Computer Engineering, and am set to graduate in the Spring of 2024."
+                             I study Statistics and Computer Science, and am set to graduate in the Fall of 2023."
           />
           <TextCard
             content="At the moment, I'm a member of Quant, a RSO at my school that focuses on Quantitative Trading. I 
