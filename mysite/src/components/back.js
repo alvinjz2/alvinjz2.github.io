@@ -1,7 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 
-export default function Back() {
+export default function ButtonLink(props) {
   let navigate = useNavigate();
   const routeChange = () => {
     navigate("/");
@@ -13,7 +13,7 @@ export default function Back() {
         class="text-xl w-30 h-[52px] bg-neutral-100 py-3 px-6 shadow-md rounded-full hover:bg-rose-100 ease-in-out transition duration-500"
       >
         <p class="hover:underline underline-offset-4 decoration-dashed decoration-pink-500">
-          Back
+          {props.text}
         </p>
       </button>
     </div>

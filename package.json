@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "react-iframe": "^1.8.5",
+    "react-spotify-embed": "^2.0.3"
+  }
+}

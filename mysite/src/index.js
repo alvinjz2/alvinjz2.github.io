@@ -10,17 +10,19 @@ import Resume from "./pages/resume";
 import Projects from "./pages/projects";
 import Home from "./Home";
 
+import SimpleAbout from "./pages/simple";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <BrowserRouter>
-      <Routes>
+      {/* <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/resume" element={<Resume />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/interests" element={<Interests />} />
-      </Routes>
+      </Routes> */}
+      <SimpleAbout/>
     </BrowserRouter>
   </React.StrictMode>
 );
