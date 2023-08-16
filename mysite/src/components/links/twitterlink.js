@@ -3,7 +3,7 @@ import TwitterImage from "../media/TwitterIcon.png";
 
 export default function TwitterIcon(props) {
   return (
-    <div class="pb-10 pt-8 translate-y-[2px]">
+    <div class="pt-8 translate-y-[2px]">
       <a rel="noopener noreferrer" target="_blank" href={props.link}>
         <button class="flex overflow-visible w-[51px] h-[51px] bg-white shadow-md rounded-full hover:scale-110 ease-in-out transition duration-300">
           <img
