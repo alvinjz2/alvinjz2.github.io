@@ -17,7 +17,7 @@ export default function SimpleAbout() {
             <div style={{ marginRight: "50px" }}>
               <Header
                 title="Alvin Zhang"
-                subtitle="Student/Software Engineer"
+                subtitle="Student, Software Engineer"
                 hstyle={{ fontSize: "70px", paddingBottom: "25px" }}
                 mstyle={{ padding: "30px" }}
                 sstyle={{ fontSize: "20px" }}
@@ -34,7 +34,7 @@ export default function SimpleAbout() {
         <div style={{ width: "85%", margin: "auto", marginTop: "7.5%" }}>
           <Header
             title="Alvin Zhang"
-            subtitle="Student/Software Engineer"
+            subtitle="Student, Software Engineer"
             hstyle={{ fontSize: "50px", paddingBottom: "15px" }}
             mstyle={{ padding: "20px" }}
             sstyle={{ fontSize: "20px" }}
