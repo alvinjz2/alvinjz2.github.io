@@ -26,7 +26,6 @@ export default function SimpleAbout() {
               <TextCard content={secondary_bio} />
               <Socials />
             </div>
-            {/* <SpotifyPlaylists /> */}
           </div>
         </div>
       </BrowserView>
