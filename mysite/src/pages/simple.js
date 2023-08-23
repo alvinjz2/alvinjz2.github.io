@@ -4,8 +4,6 @@ import { BrowserView, MobileView } from "react-device-detect";
 import TextCard from "../components/text";
 import Header from "../components/header";
 import Socials from "../components/socials";
-import SpotifyPlaylists from "../components/spotifyplaylists";
-import Footer from "../components/footer";
 import { bio, secondary_bio } from "../components/writing/descriptions";
 
 export default function SimpleAbout() {
