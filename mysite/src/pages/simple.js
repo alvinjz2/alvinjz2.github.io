@@ -15,13 +15,9 @@ export default function SimpleAbout() {
             <div style={{ marginRight: "50px" }}>
               <Header
                 title="Alvin Zhang"
-                subtitle="Student, Software Engineer"
-                hstyle={{ fontSize: "70px", paddingBottom: "25px" }}
-                mstyle={{ padding: "30px" }}
-                sstyle={{ fontSize: "20px" }}
-              />
-              <TextCard content={bio} />
-              <TextCard content={secondary_bio} />
+                subtitle="Software Engineer"
+               />
+
               <Socials />
             </div>
           </div>
@@ -29,16 +25,19 @@ export default function SimpleAbout() {
       </BrowserView>
       <MobileView>
         <div style={{ width: "85%", margin: "auto", marginTop: "7.5%" }}>
-          <Header
-            title="Alvin Zhang"
-            subtitle="Student, Software Engineer"
-            hstyle={{ fontSize: "50px", paddingBottom: "15px" }}
-            mstyle={{ padding: "20px" }}
-            sstyle={{ fontSize: "20px" }}
-          />
-          <TextCard content={bio} />
-          <TextCard content={secondary_bio} />
-          <Socials style={{ flexDirection: "row" }} />
+        <div class="py-15">
+      <div>
+        <p
+          class="text-5xl font-medium mb-4"
+ 
+        >
+          Alvin Zhang
+        </p>
+        <p class="text-3xl font-medium">Software Engineer</p>
+      </div>
+    </div>
+
+          <Socials style={{ flexDirection: "column", margin: '0px' }} />
         </div>
       </MobileView>
     </>
