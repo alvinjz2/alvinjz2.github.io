@@ -3,7 +3,7 @@ import GmailImage from "../media/GmailIcon.png";
 
 export default function GmailIcon(props) {
   return (
-    <div class="pt-8 translate-y-[2px]">
+    <div class="translate-y-[2px]">
       <a
         rel="noopener noreferrer"
         target="_blank"
