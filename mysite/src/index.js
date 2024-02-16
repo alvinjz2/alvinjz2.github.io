@@ -2,13 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
-
-import About from "./pages/about";
-import Interests from "./pages/interests";
-import Resume from "./pages/resume";
-import Projects from "./pages/projects";
-import Home from "./Home";
+import { BrowserRouter} from "react-router-dom";
 
 import SimpleAbout from "./pages/simple";
 const root = ReactDOM.createRoot(document.getElementById("root"));
