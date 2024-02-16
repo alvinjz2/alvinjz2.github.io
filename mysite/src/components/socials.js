@@ -21,7 +21,13 @@ export default function Socials(props) {
       <GmailIcon email="alvinjz2@illinois.edu" />
       <ChessLink link={chess_link} />
       <DiscordLink />
-      <div class="">
+      
+    </div>
+  );
+}
+
+/*
+<div class="">
         <button class="text-xl w-30 h-[52px] bg-neutral-100 py-3 px-6 shadow-md rounded-full hover:bg-violet-100 ease-in-out transition duration-500">
           <a
             class="hover:underline underline-offset-4 decoration-dashed decoration-blue-500"
@@ -33,6 +39,4 @@ export default function Socials(props) {
           </a>
         </button>
       </div>
-    </div>
-  );
-}
+*/
