@@ -1,5 +1,5 @@
 import React from "react";
-import GitHubImage from "../media/DiscordIcon.png";
+import DiscordImage from "../media/DiscordIcon.png";
 
 let discordLink = 'https://discord.gg/mQCJvGbFTm'
 
