@@ -4,6 +4,7 @@ import { BrowserView, MobileView } from "react-device-detect";
 import Header from "../components/header";
 import Socials from "../components/socials";
 
+var email = 'alvin.zhang295 [at] gmail.com'
 
 export default function SimpleAbout() {
   return (
@@ -15,6 +16,7 @@ export default function SimpleAbout() {
               <Header
                 title="Alvin Zhang"
                 subtitle="Software Engineer"
+                email={email}
                />
 
               <Socials />
