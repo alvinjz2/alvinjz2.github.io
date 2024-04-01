@@ -21,6 +21,7 @@ export default function Socials(props) {
       {/* <GmailIcon email="alvinjz2@illinois.edu" /> */}
       {/* <ChessLink link={chess_link} /> */}
       {/* <DiscordLink /> */}
+      <p className="text-5xl font-bold">__</p>
     </div>
   );
 }
