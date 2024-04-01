@@ -26,19 +26,15 @@ export default function SimpleAbout() {
       </BrowserView>
       <MobileView>
         <div style={{ width: "85%", margin: "auto", marginTop: "7.5%" }}>
-        <div class="py-15">
-      <div>
-        <p
-          class="text-5xl font-medium mb-4"
- 
-        >
-          Alvin Zhang
-        </p>
-        <p class="text-3xl font-medium">Software Engineer</p>
-      </div>
-    </div>
+          <div class="py-15">
+            <Header
+                    title="Alvin Zhang"
+                    subtitle="Software Engineer"
+                    email={email}
+                  />
 
-          <Socials style={{ flexDirection: "column", margin: '0px' }} />
+            <Socials />
+         </div>
         </div>
       </MobileView>
     </>
