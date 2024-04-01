@@ -18,10 +18,9 @@ export default function Socials(props) {
       <GitHubIcon link={github_link} />
       <LinkedInIcon link={linkedin_link} />
       <TwitterIcon link={twitter_link} />
-      <GmailIcon email="alvinjz2@illinois.edu" />
-      <ChessLink link={chess_link} />
-      <DiscordLink />
-      
+      {/* <GmailIcon email="alvinjz2@illinois.edu" /> */}
+      {/* <ChessLink link={chess_link} /> */}
+      {/* <DiscordLink /> */}
     </div>
   );
 }
