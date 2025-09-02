@@ -15,7 +15,7 @@ export const timelineData = [
         year: '2025',
         title: 'Graduate Student',
         subtitle: 'University of Illinois Urbana-Champaign \n Master of Computer Science',
-        dateRange: 'Aug 2020 - Dec 2023',
+        dateRange: 'Jan 2024 - Dec 2025',
         logo: UofI,
     },
     {

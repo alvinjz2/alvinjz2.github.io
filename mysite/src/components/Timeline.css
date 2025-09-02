@@ -71,9 +71,9 @@
     justify-content: space-between;
     align-items: flex-start;
     width: 100%;
-    padding: 30px;
+    padding: 35px;
     background-color: #fff;
-    border-radius: 8px;
+    border-radius: 18px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
     margin-left: 30px;
 }
