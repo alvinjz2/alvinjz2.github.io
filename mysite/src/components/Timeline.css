@@ -1,0 +1,123 @@
+.timeline-container {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    max-width: 700px;
+    margin: 50px auto;
+    color: #333;
+    /* ✨ Modified: Added relative positioning and padding */
+    position: relative;
+    padding: 20px 0;
+    /* Add padding to give the line some space at the top and bottom */
+}
+
+/* ✨ New: Style for the single, continuous vertical line */
+.timeline-continuous-line {
+    width: 2px;
+    background-color: #ddd;
+    position: absolute;
+    left: 120px;
+    /* Adjust this to align with your year text */
+    top: 20px;
+    /* Start after the container's top padding */
+    bottom: 20px;
+    /* End before the container's bottom padding */
+    z-index: 0;
+}
+
+.timeline-items-wrapper {
+    position: relative;
+    /* Ensures items sit on top of the line's z-index */
+}
+
+.timeline-item {
+    display: flex;
+    margin-bottom: 40px;
+    position: relative;
+    /* Needed for positioning the dot */
+}
+
+/* Remove the last item's margin to align the line's end properly */
+.timeline-item:last-child {
+    margin-bottom: 0;
+}
+
+.timeline-year {
+    font-size: 2.2rem;
+    font-weight: 500;
+    color: #000;
+    width: 100px;
+    flex-shrink: 0;
+    text-align: right;
+    margin-right: 20px;
+    padding-top: 4px;
+}
+
+/* ✨ Modified: This now styles the dot instead of a line segment */
+.timeline-dot {
+    width: 12px;
+    height: 12px;
+    background-color: #000;
+    border-radius: 50%;
+    position: absolute;
+    left: 115px;
+    /* (line's left position) - (dot's width / 2) + (line's width / 2) */
+    top: 80px;
+    /* Position the dot vertically */
+    z-index: 1;
+    /* Ensure the dot is on top of the line */
+}
+
+.timeline-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    margin-left: 30px;
+}
+
+/* (The rest of your CSS for .timeline-text, .timeline-logo, etc. remains the same) */
+
+.timeline-text {
+    flex-grow: 1;
+}
+
+.timeline-text h2 {
+    font-size: 2.1rem;
+    font-weight: 300;
+    margin: 0 0 8px 0;
+    color: #222;
+}
+
+.timeline-text h3 {
+    font-size: 1.3rem;
+    font-weight: 350;
+    margin: 0 0 12px 0;
+    color: #222;
+}
+
+.timeline-text .smaller-subtitle {
+    font-size: 1rem;
+    /* Adjust this value to your desired smaller size */
+    margin-top: 5px;
+    /* Optional: Adjust the top margin for spacing */
+}
+
+.timeline-text p {
+    font-size: 1rem;
+    margin: 0;
+    color: #555;
+}
+
+.timeline-logo {
+    margin-left: 20px;
+    flex-shrink: 0;
+}
+
+.timeline-logo img {
+    /* width: 48px; */
+    height: 48px;
+    object-fit: contain;
+}
